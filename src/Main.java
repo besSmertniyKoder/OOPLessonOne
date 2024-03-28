@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        Cat animal = new Cat();
-        Dog animal1 = new Dog();
-
-        animal.setName("barsik");
-       animal1.setName("sharik");
-        animal.voice();
-        animal1.voice();
-        System.out.println(animal.getName());
-        System.out.println(animal1.getName());
-        animal.bheaivour();
-        animal1.bheaivour();
+//        Animal animal = new Animal();
+//        animal.setName("barsik");
+//        animal.setName("murzik");
+//        System.out.println(animal.getName() + " "+ animal.getAge());
+        Cat cat = new Cat();
+        Dog dog = new Dog();
+        cat.setName("murzik");
+        cat.voice();
+        dog.voice();
+        cat.bheaivour();
+        dog.bheaivour();
 
     }
 }

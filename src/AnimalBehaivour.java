@@ -1,3 +1,4 @@
 public interface AnimalBehaivour {
-    void bheaivour();
+
+     void bheaivour();
 }

@@ -3,8 +3,11 @@ public class Dog extends Animal implements AnimalBehaivour{
     public void voice() {
         System.out.println("гав");
     }
+    public void voice(String name){
+        System.out.println("гав, меня зовут " + name);
+    }
 
-    @Override
+
     public void test() {
 
     }

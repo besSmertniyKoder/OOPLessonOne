@@ -1,8 +1,14 @@
 public abstract class Animal {
    private String name;
    private int age;
-    public abstract void voice();
-    public abstract void test();
+    public  void voice() {
+        System.out.println("hello");
+    }
+
+
+//    public  void test() {
+//    }
+//    }
 
     public String getName() {
         return name;
